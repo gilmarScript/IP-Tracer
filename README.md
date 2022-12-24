@@ -27,6 +27,6 @@ trace -m  para rastrear seu próprio endereço IP.
 
 ***Consultar um ip***
 
-```ip
+```
 ip-tracer -t 127.0.0.1
 ```
