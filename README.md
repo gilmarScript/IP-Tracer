@@ -21,7 +21,8 @@ chmod +x install`
 # Como Usar
 
 ***rastrear seu próprio endereço IP***
-``
+
+```
 trace -m  para rastrear seu próprio endereço IP. 
 ```
 
@@ -30,3 +31,8 @@ trace -m  para rastrear seu próprio endereço IP.
 ```
 ip-tracer -t 127.0.0.1
 ```
+
+***Deixe Sua doação para ajudar do desenvovimento***
+
+***BTC*** ````1Fi2Du2HuF8bHFqmwRq3yYG17GHNa3wkWu````
+***SOLANA*** ````GS68JFyjcyDThJA4RToGSPtun82vxQakqr5Skip45qLk ````
