@@ -74,7 +74,7 @@ class set {
 
 
     \033[01;37m}\033[01;31m--------------------------------------\033[01;37m{
- }\033[01;31m------------- \033[01;32mTrack IPLocation\033[01;31m -------------\033[01;37m{
+ }\033[01;31m------------- \033[01;32mRastrear localização IP\033[01;31m -------------\033[01;37m{
     }\033[01;31m--------------------------------------\033[01;37m{
 
 \033[00m
@@ -84,20 +84,20 @@ EOL;
       echo "\033[01;32m      IP-Tracer installed Successfully !!!\033[00m\n";
       echo <<<EOL
 
-\033[01;37m ----------------------------------------------
-|         \033[01;36mcommand\033[01;37m       |        \033[01;36mUse\033[01;37m           |
+\033[01;37m ---------------------------------------------- 
+|         \033[01;36mcommand\033[01;37m       |        \033[01;36mUse\033[01;37m               |
  ----------------------------------------------
-| \033[01;32mtrace -m\033[01;37m              | \033[01;33mTrack your IP\033[01;37m        |
-| \033[01;32mtrace -t <traget-ip>\033[01;37m  | \033[01;33mTrack IP\033[01;37m             |
-| \033[01;32mtracer --help\033[01;37m         | \033[01;33mFor more information\033[01;37m |
+| \033[01;32mtrace -m\033[01;37m              | \033[01;33mRastreie seu IP\033[01;37m          |
+| \033[01;32mtrace -t <traget-ip>\033[01;37m  | \033[01;33mRastrear IP\033[01;37m              |
+| \033[01;32mtracer --help\033[01;37m         | \033[01;33mPara maiores informações\033[01;37m |
  ----------------------------------------------
 
-\033[01;31mNote :- ip-api will automatically ban any IP addresses doing over 150 requests per minute.\033[00m
+\033[01;31mNote :- O ip-api banirá automaticamente todos os endereços IP que fizerem mais de 150 solicitações por minuto.\033[00m
 
 
 EOL;
     } else {
-      echo "\n\n\033[01;31m  Sorry IP-Tracer is not installed !!!\033[00m";
+      echo "\n\n\033[01;31m  Desculpe, o IP-Tracer não está instalado !!!\033[00m";
     }
   }
 }
